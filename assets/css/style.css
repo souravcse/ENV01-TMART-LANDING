@@ -1,0 +1,161 @@
+.header-section {
+    height: 100px;
+    padding-top: 15px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ecb3b0;
+    line-height: 44px;
+}
+
+.menu > ul > li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 43px;
+    font-size: 20px;
+}
+
+.purchase-btn {
+    text-decoration: none;
+    background-color: #ECB3B0;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+}
+
+.hero-section {
+    height: 600px;
+    background: url("../images/hero-bg.png") repeat 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 200px;
+}
+
+.hero-section h1 {
+    font-size: 78px;
+    line-height: 85px;
+    color: #FFFFFF;
+}
+
+.hero-section h4 {
+    font-size: 35px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.hero-section p {
+    font-size: 25px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.hero-section .view-btn {
+    width: 200px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    border-radius: 18px;
+    margin-right: 20px;
+    color: white;
+}
+
+.hero-section .buy-btn {
+    width: 200px;
+    height: 50px;
+    background: #43F3C9;
+    border-radius: 18px;
+    border: unset;
+}
+
+.info-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -70px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.info-section-box {
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 25px;
+    padding: 30px 0px;
+    width: 60%;
+}
+
+.info-section-box ul li {
+    display: inline-block;
+    list-style: none;
+    width: 33%;
+}
+
+.home-page-section {
+    margin-bottom: 100px;
+}
+
+.home-page-section > h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home-page-section > h6 {
+    margin-bottom: 50px;
+}
+
+.page-view {
+    height: 550px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.06);
+    width: 100%;
+}
+
+.page-view img {
+    width: 100%;
+}
+
+.page-view-title {
+    width: 100%;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #121826;
+    padding: 10px 0;
+}
+
+.feature-view {
+    background: #FFFFFF;
+    border: 1px solid #f0cbc9ba;
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feature-view:hover {
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.06);
+    border: unset;
+}
+
+.footer-section {
+    background: url("../images/hero-bg.png") repeat 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
