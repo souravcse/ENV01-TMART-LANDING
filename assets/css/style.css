@@ -18,6 +18,16 @@
     font-size: 20px;
 }
 
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu > ul > li > a:hover {
+    color: #ECB3B0;
+}
+
 .purchase-btn {
     text-decoration: none;
     background-color: #ECB3B0;
@@ -90,6 +100,15 @@
     width: 60%;
 }
 
+
+.info-section-box p {
+    margin-bottom: 0;
+}
+
+.info-section-box h1 {
+    font-weight: bold;
+}
+
 .info-section-box ul li {
     display: inline-block;
     list-style: none;
@@ -98,6 +117,7 @@
 
 .home-page-section {
     margin-bottom: 100px;
+
 }
 
 .home-page-section > h1 {
@@ -107,6 +127,7 @@
 
 .home-page-section > h6 {
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .page-view {
@@ -143,6 +164,10 @@
     flex-direction: column;
 }
 
+.feature-view img {
+    margin-bottom: 20px;
+}
+
 .feature-view:hover {
     background: #FFFFFF;
     box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.06);
@@ -163,7 +188,7 @@
 
 .scroller-outer {
     width: 100%;
-    height:475px;
+    height: 475px;
     /* border: solid 2px red; */
     position: relative;
     overflow: hidden;
@@ -178,6 +203,7 @@
     box-sizing: border-box;
     overflow: scroll;
 }
+
 .more-page-view {
     position: absolute;
     top: 0;
@@ -187,6 +213,7 @@
     box-sizing: border-box;
     overflow: scroll;
 }
+
 .scroller-inner::-webkit-scrollbar {
     display: none;
 }
@@ -195,6 +222,7 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
 .scroller-inner ::-webkit-scrollbar {
     display: none;
 }
