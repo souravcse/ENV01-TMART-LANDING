@@ -136,6 +136,8 @@
     box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.06);
     width: 100%;
     cursor: pointer;
+    text-decoration: none;
+
 }
 
 .scroller-inner img {
@@ -150,6 +152,7 @@
     text-align: center;
     color: #121826;
     padding: 10px 0;
+    text-decoration: none!important;
 }
 
 .feature-view {
