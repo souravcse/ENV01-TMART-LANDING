@@ -39,39 +39,39 @@
 
 .hero-section {
     height: 600px;
-    background: url("../images/hero-bg.png") repeat 0 0;
+    background: url("../images/hero-bg-1.png") repeat 0 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: bottom;
     text-align: center;
-    padding: 100px 200px;
 }
 
 .hero-section h1 {
     font-size: 78px;
     line-height: 85px;
-    color: #FFFFFF;
+    color: #ecb3b0;
 }
 
 .hero-section h4 {
     font-size: 35px;
     line-height: 45px;
-    color: #FFFFFF;
+    color: #ECB3B0;
 }
 
 .hero-section p {
     font-size: 25px;
     line-height: 33px;
-    color: #FFFFFF;
+    color: #ECB3B0;
 }
 
 .hero-section .view-btn {
     width: 200px;
     height: 50px;
     background: rgba(255, 255, 255, 0.1);
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ECB3B0;
     border-radius: 18px;
     margin-right: 20px;
-    color: white;
+    color: #ECB3B0;
 }
 
 .hero-section .buy-btn {
@@ -228,4 +228,19 @@
 
 .scroller-inner ::-webkit-scrollbar {
     display: none;
+}
+.sidebar-navigation ol {
+    counter-reset: section;
+    list-style-type: none;
+}
+.doc-nav>li {
+    margin-bottom: 1.5rem;
+}
+.doc-nav a {
+    display: block;
+    font-size: 16px;
+    line-height: 3rem;
+    color:black;
+    text-decoration: none;
+    padding: 0;
 }
