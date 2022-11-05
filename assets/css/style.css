@@ -40,12 +40,18 @@
 .hero-section {
     height: 1200px;
     text-align: center;
-    background-color: #ecb3b0;
+    background-image: url("/assets/images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 .hero-section-info{
     position: relative;
     top: 100px;
-
+    margin-bottom: 135px;
+}
+.hero-section-img {
+   position: relative;
 }
 .hero-section-img img{
     width: 100%;
